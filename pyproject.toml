@@ -1,0 +1,23 @@
+[project]
+name = "repl-nix-workspace"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.11"
+dependencies = [
+    "faiss-cpu>=1.9.0.post1",
+    "fastapi>=0.115.6",
+    "numpy>=2.2.1",
+    "pandas>=2.2.3",
+    "python-multipart>=0.0.20",
+    "rapidfuzz>=3.11.0",
+    "requests>=2.32.3",
+    "scikit-learn>=1.6.1",
+    "starlette>=0.41.3",
+    "streamlit>=1.41.1",
+    "uvicorn>=0.34.0",
+    "transformers[torch]"
+]
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
